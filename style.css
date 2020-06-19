@@ -115,7 +115,7 @@ header {
 
 /* main */
 main {
-  background-color: rgb(235, 123, 123);
+  background-color: white;
   height: 200px;
   width: auto;
 }
@@ -144,7 +144,7 @@ main {
 
 /* designer */
 .designer {
-  background-color: orange;
+  background-color: white;
   height: 363px;
   width: auto;
 }
@@ -221,8 +221,10 @@ footer {
 }
 
 .footer-right a {
-  line-height: 150px;
-  padding: 0 25px;
+  padding-top: 49px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 49px;
   font-size: 20px;
   color: #666;
   display: block;

@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Bitter', serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.container {
+  max-height: 600px;
+  margin: 0 auto;
+  padding: 0px 140px;
+}
+
+.btn {
+  display: inline-block;
+}
+
+/* jumbotron */
+.jumbotron {
+  padding: 50px;
+  background-color: #eeeeee;
+}
+
+.description-text {
+  float: left;
+  max-width: 450px;
+  margin-left: 50px;
+  margin-right: 300px;
+  letter-spacing: 1px;
+}
+
+.description-text p {
+  margin-bottom: 10px;
+  line-height: 20px;
+}
+
+.description-text h3 {
+  margin-bottom: 20px;
+  font-size: 26px;
+}
+
+.read-more {
+  background-color: orange;
+  padding: 14px 44px;
+  color: white;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.description-img img{
+  width: 287px;
+  height: 333px;
+  margin-right: 50px;
+}
+
+/* end jumbotron */
+
+/* main */
+.main{
+  padding-top: 35px;
+  background-color: white;
+}
+
+.brand-heading {
+  margin-bottom: 16px;
+}
+
+.brand-img img{
+  max-height: 150px;
+  opacity: 0.3;
+  margin-left: 70px;
+  margin-right: 80px;
+}
+
+.designer-heading {
+  margin-top: 50px;
+}
+
+.designer-icon{
+  float: left;
+  width: 25%;
+  text-align: center;
+}
+
+.designer-icon img {
+  max-height: 150px;
+  border-radius: 100%;
+}
+
+.txt-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 10px;
+  text-align: center;
+}

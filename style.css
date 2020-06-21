@@ -34,6 +34,13 @@ header {
   position :fixed;
 }
 
+.menu-icon {
+	float: left;
+	font-size: 23px;
+	margin-top: 5px;
+	display: none;
+}
+
 .left img {
   float: left;
   width: 62px;
@@ -51,6 +58,11 @@ header {
   margin-top: 28px;
 }
 
+.left p:hover {
+	color:blue;
+}
+
+
 .right {
   float: right;
   margin-top: 23px;
@@ -63,6 +75,7 @@ header {
   background-color: #eeeeee;
   width: auto;
   height: 450px;
+  
 }
 
 .description-text {
@@ -118,6 +131,7 @@ main {
 }
 
 .brand-heading {
+
   padding-top: 35px;
 }
 
@@ -134,7 +148,6 @@ main {
 .brand-img img {
   max-height: 82px;
   max-width: 260px;
-  
 }
 
 /* designer */
@@ -186,6 +199,7 @@ main {
 
 /* end main */
 
+
 /* footer */
 footer {
   height: 120px;
@@ -236,6 +250,7 @@ footer {
 }
 
 /* end footer */
+
 
 /* responsive */
 /*Tablet*/
@@ -301,10 +316,16 @@ footer {
 	header .container{
 		height: 40px;
 	}
+
+	.menu-icon {
+		display: block;
+	}
+
 	.left{
 		height: 40px;
 		float: left;
 		width: 90%;
+		display: none;
 	}
 	.left img {
 		width: 25px;
@@ -327,6 +348,11 @@ footer {
 	}
 	.jumbotron {
 		height: 575px;
+	}
+
+	.read-more {
+		width: 100%;
+		text-align: center;
 	}
 	main{
 		height: 500px;
@@ -371,6 +397,8 @@ footer {
 		width: 50%;
 		margin-bottom: 20px;
 	}
+
+
 	footer .container{
 		height: 120px;
 		padding: 0 15px;
@@ -393,5 +421,41 @@ footer {
 		transition: all 0.5s;
 		padding:0;
 	}
+
+	
+}
+
+/* smaller smartphone */
+@media screen and (max-width: 600px){
+	.menu-icon {
+		display: block;
+	}
+
+	.read-more {
+		width: 100%;
+		text-align: center;
+	}
+
+	.designer {
+		height: 750px;
+	}
+
+	.designer-icon {
+		width: 100%;
+	}
+
+	footer {
+		height:150px;
+		width: 100%;
+	}
+
+	.footer-heading h3 {
+		font-size: 15px;
+	}
+
+	.footer-icon img{
+		height: 25px;
+	}
+
 
 }
